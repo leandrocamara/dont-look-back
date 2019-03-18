@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fff6268e-c535-4d56-a92c-87578fd5620c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/EXAMPLE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Bricks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Bricks.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Cement_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Cement_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_D.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Materials/Hay_D.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/Android/libs/armeabi-v7a/libaudioplugingvrunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/Android/libs/armeabi-v7a/libaudioplugingvrunity.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/Android/libs/x86/libaudioplugingvrunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/Android/libs/x86/libaudioplugingvrunity.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/iOS/GvrAudioAppController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/iOS/GvrAudioAppController.h.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/iOS/GvrAudioAppController.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/iOS/GvrAudioAppController.mm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/iOS/libaudioplugingvrunity.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/iOS/libaudioplugingvrunity.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/x86_64/libaudioplugingvrunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Plugins/x86_64/libaudioplugingvrunity.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaypointMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaypointMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointMove.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1552931792708" expanded="true" signature="62:774" ph="{...}" />
+                <marker date="1552931792708" expanded="true" signature="243:772" ph="{...}" />
+                <marker date="1552931792708" expanded="true" signature="434:680" ph="{...}" />
+                <marker date="1552931792708" expanded="true" signature="693:766" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaypointMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaypointMove.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="376" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fff6268e-c535-4d56-a92c-87578fd5620c" name="Default Changelist" comment="" />
+      <created>1552918762290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552918762290</updated>
+      <workItem from="1552918777453" duration="1554000" />
+      <workItem from="1552927517614" duration="1998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3552000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Unity" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Errors In Solution" order="6" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="234" column="42" lean-forward="true" selection-start-line="234" selection-start-column="42" selection-end-line="234" selection-end-column="42" />
+          <folding>
+            <marker date="1552928320909" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1552928320909" expanded="false" signature="842:886" ph="..." />
+            <marker date="1552928320909" expanded="true" signature="888:1610" ph="/// This abstract class should be implemented for pointer based input, and used with ... " />
+            <marker date="1552928320909" expanded="true" signature="1698:26636" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="1705:1808" ph="/* When using a Daydream (3DoF) controller: ... */" />
+            <marker date="1552928320909" expanded="true" signature="1917:2081" ph="/* When using a Daydream 6DoF controller: ... */" />
+            <marker date="1552928320909" expanded="true" signature="2612:4664" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="2627:3824" ph="/// Casts a ray from the camera through the target of the pointer. ... " />
+            <marker date="1552928320909" expanded="true" signature="3850:3966" ph="/// Cast a ray directly from the pointer origin. ... " />
+            <marker date="1552928320909" expanded="true" signature="3992:4642" ph="/// Default method for casting ray. ... " />
+            <marker date="1552928320909" expanded="true" signature="4670:4813" ph="/// Represents a ray segment for a series of intersecting rays. ... " />
+            <marker date="1552928320909" expanded="true" signature="4842:5140" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="5146:5408" ph="/// Determines which raycast mode to use for this raycaster. ... " />
+            <marker date="1552928320909" expanded="true" signature="5413:5642" ph="[...]" />
+            <marker date="1552928320909" expanded="true" signature="5705:5947" ph="/// Determines the eventCamera for _GvrPointerPhysicsRaycaster_ and _GvrPointerGraphicRaycaster_. ... " />
+            <marker date="1552928320909" expanded="true" signature="6427:6506" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="6687:6843" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="6705:6837" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7033:7194" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7051:7188" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7200:7385" ph="/// This is used to determine if the enterRadius or the exitRadius should be used for the raycast. ... " />
+            <marker date="1552928320909" expanded="true" signature="7451:7566" ph="/// If ShouldUseExitRadiusForRaycast is true, returns the exit radius. ... " />
+            <marker date="1552928320909" expanded="true" signature="7604:7945" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7622:7939" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7785:7848" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7865:7929" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="7951:8078" ph="/// Returns the transform that represents this pointer. ... " />
+            <marker date="1552928320909" expanded="true" signature="8124:8170" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="8345:8444" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="8483:10755" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="8537:10749" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="8762:8865" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="8882:8963" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="9059:9197" ph="/* ##if !UNITY_EDITOR ... */" />
+            <marker date="1552928320909" expanded="true" signature="9242:9336" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="9380:9472" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="9528:9682" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="9888:9961" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="9978:10231" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="10009:10146" ph="/* Mask off everything except the right-most bit that is set in case ... */" />
+            <marker date="1552928320909" expanded="true" signature="10347:10574" ph="/* Build trigger button state from filtered ups and downs to ensure ... */" />
+            <marker date="1552928320909" expanded="true" signature="10761:11072" ph="/// If true, the trigger was just pressed. This is an event flag: ... " />
+            <marker date="1552928320909" expanded="true" signature="11108:11229" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="11126:11223" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="11235:11588" ph="/// If true, the trigger is currently being pressed. This is not ... " />
+            <marker date="1552928320909" expanded="true" signature="11623:11740" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="11641:11734" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="11746:12054" ph="/// If true, the trigger was just released. This is an event flag: ... " />
+            <marker date="1552928320909" expanded="true" signature="12088:12207" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12106:12201" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12266:12596" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12284:12590" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12390:12476" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12493:12580" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12651:12701" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="12707:13096" ph="/// If true, the user just started touching the touchpad. This is an event flag (it is true ... " />
+            <marker date="1552928320909" expanded="true" signature="13130:13419" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13148:13413" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13205:13263" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13280:13403" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13425:13700" ph="/// If true, the user is currently touching the touchpad. ... " />
+            <marker date="1552928320909" expanded="true" signature="13735:14020" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13753:14014" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13810:13868" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="13885:14004" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="14026:14413" ph="/// If true, the user just stopped touching the touchpad. This is an event flag (it is true ... " />
+            <marker date="1552928320909" expanded="true" signature="14445:14732" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="14463:14726" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="14520:14578" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="14595:14716" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="14738:15316" ph="/// Position of the current touch, if touching the touchpad. ... " />
+            <marker date="1552928320909" expanded="true" signature="15352:15768" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="15370:15762" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="15427:15492" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="15509:15752" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="15912:16231" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="15930:16225" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="16041:16106" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="16366:16721" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="16384:16715" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="16495:16553" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="16580:16638" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="16727:16876" ph="/// When using the Camera raycast mode, this is used to calculate ... " />
+            <marker date="1552928320909" expanded="true" signature="16931:16986" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="17078:17276" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="17096:17270" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="17153:17227" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="17423:17696" ph="/// Called when the pointer is facing a valid GameObject. This can be a 3D ... " />
+            <marker date="1552928320909" expanded="true" signature="17792:18080" ph="/// Called every frame the user is still pointing at a valid GameObject. This ... " />
+            <marker date="1552928320909" expanded="true" signature="18182:18515" ph="/// Called when the pointer no longer faces an object previously ... " />
+            <marker date="1552928320909" expanded="true" signature="18763:19391" ph="/// Return the radius of the pointer. It is used by GvrPointerPhysicsRaycaster when ... " />
+            <marker date="1552928320909" expanded="true" signature="19485:19773" ph="/// Returns a point in worldspace a specified distance along the pointer. ... " />
+            <marker date="1552928320909" expanded="true" signature="19829:19983" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="19989:20240" ph="/// Returns the ray used for projecting points out of the pointer for the given distance. ... " />
+            <marker date="1552928320909" expanded="true" signature="20296:20857" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="20396:20740" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="20515:20614" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="20631:20730" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="20753:20827" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="20863:21121" ph="/// Calculates the ray for a given Raycast mode. ... " />
+            <marker date="1552928320909" expanded="true" signature="21205:23109" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="21311:21444" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="21547:21677" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="21755:23079" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="21893:22168" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="23115:23269" ph="/// Calculates the ray for the segment of the Hybrid raycast determined by the raycast mode ... " />
+            <marker date="1552928320909" expanded="true" signature="23365:24241" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="23427:24211" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="24291:24357" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="24439:26611" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="24519:26605" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="24562:26595" ph="{...}" />
+            <marker date="1552928320909" expanded="true" signature="26341:26501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaypointMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1552931792708" expanded="true" signature="62:774" ph="{...}" />
+            <marker date="1552931792708" expanded="true" signature="243:772" ph="{...}" />
+            <marker date="1552931792708" expanded="true" signature="434:680" ph="{...}" />
+            <marker date="1552931792708" expanded="true" signature="693:766" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
