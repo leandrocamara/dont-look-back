@@ -12,7 +12,6 @@ public class FPS : MonoBehaviour
     void Start()
     {
         fps = GetComponent<Text>();
-        Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
