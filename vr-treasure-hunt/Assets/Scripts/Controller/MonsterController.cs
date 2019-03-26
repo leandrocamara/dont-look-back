@@ -5,6 +5,7 @@ using UnityEngine;
 public class MonsterController : MonoBehaviour
 {
     public GameObject monsterStatic;
+    public AudioSource audioMonsterStatic;
 
     private void Start()
     {
@@ -13,6 +14,7 @@ public class MonsterController : MonoBehaviour
 
     public void ActiveMonsterStatic()
     {
+        audioMonsterStatic.Play();
         monsterStatic.SetActive(true);
     }
 }

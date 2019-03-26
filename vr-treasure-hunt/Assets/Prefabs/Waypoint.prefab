@@ -9384,8 +9384,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   teleport: 0
-  speedMovement: 6
-  heightAboveWaypoint: 1
+  speedMovement: 2
+  heightAboveWaypoint: 0.3
+  waypointController: {fileID: 0}
 --- !u!1 &1940827037941030
 GameObject:
   m_ObjectHideFlags: 0
