@@ -2,36 +2,52 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Classe responsável por controlar o Monstro.
+ */
 public class MonsterController : MonoBehaviour
 {
-    public GameObject monsterStatic;
-    public GameObject monsterAlive;
-    public AudioSource audioMonsterStatic;
-    public AudioSource audioMonsterAlive;
-    public Door[] doorsToClose;
+    public Monster monster;
     public Door[] doorsToOpen;
+    public Door[] doorsToClose;
+    public GameObject monsterStatic;
+    public AudioSource audioMonsterStatic;
+    public WaypointController waypointController;
 
-    private void Start()
-    {
-        monsterAlive.SetActive(false);
-        monsterStatic.SetActive(false);
-    }
-
+    /**
+     * Ativa o Monstro (estático) da sala da Chave.
+     */
     public void ActiveMonsterStatic()
     {
         audioMonsterStatic.Play();
         monsterStatic.SetActive(true);
     }
 
+    /**
+     * Ativa a ação do Monstro de perseguição ao Jogador.
+     */
     public void ChasePlayer()
     {
-        audioMonsterAlive.Play();
-        monsterAlive.SetActive(true);
+        monster.gameObject.SetActive(true);
+        monster.AttackPlayer();
 
         OpenDoorsExitRoomChest();
-        CloseDoorsExitRoomChest();
+        CloseDoorsEnterRoomChest();
+        waypointController.ActiveWaypointExit();
     }
 
+    /**
+     * Método Start.
+     */
+    private void Start()
+    {
+        monsterStatic.SetActive(false);
+        monster.gameObject.SetActive(false);
+    }
+
+    /**
+     * Abre as portas que permitem o Jogador sair da sala do Tesouro.
+     */
     private void OpenDoorsExitRoomChest()
     {
         foreach (var door in doorsToOpen)
@@ -40,7 +56,10 @@ public class MonsterController : MonoBehaviour
         }
     }
 
-    private void CloseDoorsExitRoomChest()
+    /**
+     * Fecha as portas que permitem o Jogador entrar da sala do Tesouro.
+     */
+    private void CloseDoorsEnterRoomChest()
     {
         foreach (var door in doorsToClose)
         {

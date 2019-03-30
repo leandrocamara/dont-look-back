@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * Classe importada do Módulo 4 (Design de VR) da Udacity.
+ */
 public class LightUp : MonoBehaviour
 {
 	// The initial material of the orb.

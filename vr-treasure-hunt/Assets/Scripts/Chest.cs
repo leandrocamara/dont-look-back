@@ -2,23 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Classe responsável pelas características e ações do Baú.
+ */
 public class Chest : MonoBehaviour
 {
-    private Animator anim;
     public MonsterController monsterController;
 
-    void Start()
-    {
-        anim = GetComponentInChildren<Animator>();
-    }
+    private Animator anim;
 
+    /**
+     * Método responsável por abrir o Baú.
+     */
     public void OpenChest()
     {
         anim.SetTrigger("Open");
+        monsterController.ChasePlayer();
     }
 
-    public void TakeGoldChest()
+    /**
+     * Método Start.
+     */
+    private void Start()
     {
-        monsterController.ChasePlayer();
+        anim = GetComponentInChildren<Animator>();
     }
 }

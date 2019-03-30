@@ -3,20 +3,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Classe responsável por controlar os Waypoints.
+ */
 public class WaypointController : MonoBehaviour
 {
-    private Waypoint[] waypoints;
-
-    public Waypoint waypointStart;
-
-    public Waypoint waypointExit;
-
     public Waypoint waypointKey;
-
+    public Waypoint waypointExit;
+    public Waypoint waypointStart;
+    public bool waypointKeyActive = false;
     public bool waypointExitActive = false;
 
-    public bool waypointKeyActive = false;
+    private Waypoint[] waypoints;
 
+    /**
+     * Ativa o Waypoint que dá acesso à sala da Chave.
+     */
+    public void ActiveWaypointKey()
+    {
+        waypointKeyActive = true;
+        waypointKey.gameObject.SetActive(true);
+    }
+
+    /**
+     * Ativa o Waypoint que dá acesso à sala da Chave.
+     */
+    public void ActiveWaypointExit()
+    {
+        waypointExitActive = true;
+        waypointExit.gameObject.SetActive(true);
+    }
+
+    /**
+     * Inativa o Waypoint acionado e ativa os demais Waypoints.
+     */
+    public void InactiveClickedWaypoint(Waypoint waypointClicked)
+    {
+        foreach (var waypoint in waypoints)
+        {
+            waypoint.gameObject.SetActive(true);
+        }
+
+        InactiveWaypoint(waypointKeyActive, waypointKey);
+        InactiveWaypoint(waypointExitActive, waypointExit);
+
+        waypointClicked.gameObject.SetActive(false);
+    }
+
+    /**
+     * Método Start.
+     */
     private void Start()
     {
         waypoints = FindObjectsOfType<Waypoint>();
@@ -25,29 +61,14 @@ public class WaypointController : MonoBehaviour
         waypointStart.gameObject.SetActive(false);
     }
 
-    public void ActiveWaypointKey()
+    /**
+     * Inativa o Waypoint informado caso o mesmo tenha que estar inativo.
+     */
+    private void InactiveWaypoint(bool stayActive, Waypoint waypoint)
     {
-        waypointKeyActive = true;
-        waypointKey.gameObject.SetActive(true);
-    }
-
-    public void InactiveClickedWaypoint(Waypoint waypointClicked)
-    {
-        foreach (var waypoint in waypoints)
+        if (!stayActive)
         {
-            waypoint.gameObject.SetActive(true);
+            waypoint.gameObject.SetActive(false);
         }
-
-        if (!waypointExitActive)
-        {
-            waypointExit.gameObject.SetActive(false);
-        }
-
-        if (!waypointKeyActive)
-        {
-            waypointKey.gameObject.SetActive(false);
-        }
-
-        waypointClicked.gameObject.SetActive(false);
     }
 }

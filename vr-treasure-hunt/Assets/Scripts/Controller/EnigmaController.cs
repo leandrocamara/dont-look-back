@@ -2,23 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Classe responsável por controlar o Enigma.
+ */
 public class EnigmaController : MonoBehaviour
 {
-    private int[] puzzleOrder;
-    private int currentDisplayIndex = 0;
-    private int currentSolveIndex = 0;
-    private bool puzzleSolved = false;
-    public GameObject[] puzzleSpheres;
-    public float puzzleSpeed = 1f;
-    public GameObject failAudioHolder;
     public Door doorKey;
+    public float puzzleSpeed = 1f;
+    public GameObject[] puzzleSpheres;
+    public GameObject failAudioHolder;
     public WaypointController waypointController;
 
-    private void Start()
-    {
-        puzzleOrder = new int[puzzleSpheres.Length];
-        GeneratePuzzleSequence();
-    }
+    private int[] puzzleOrder;
+    private bool puzzleSolved = false;
+    private int currentSolveIndex = 0;
+    private int currentDisplayIndex = 0;
 
     // Create a random puzzle sequence.
     public void GeneratePuzzleSequence()
@@ -59,7 +57,7 @@ public class EnigmaController : MonoBehaviour
 
     // Disaplay the
     // Called from StartPuzzle() and invoked repeatingly.
-    void DisplayPattern()
+    public void DisplayPattern()
     {
         // If we haven't reached the end of the display pattern.
         if (currentDisplayIndex < puzzleOrder.Length)
@@ -119,7 +117,9 @@ public class EnigmaController : MonoBehaviour
         }
     }
 
-    // Do this when the player solves the puzzle.
+    /**
+     * Ativa o Waypoint que dá acesso à sala da Chave e inativa o Enigma.
+     */
     public void PuzzleSuccess()
     {
         puzzleSolved = true;
@@ -134,5 +134,14 @@ public class EnigmaController : MonoBehaviour
         failAudioHolder.GetComponent<AudioSource>().Play();
         currentSolveIndex = 0;
         StartPuzzle();
+    }
+
+    /**
+     * Método Start.
+     */
+    private void Start()
+    {
+        puzzleOrder = new int[puzzleSpheres.Length];
+        GeneratePuzzleSequence();
     }
 }

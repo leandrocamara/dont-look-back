@@ -3,26 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * Classe responsável pela apresentação do FrameRate na câmera do Jogador.
+ */
 public class FPS : MonoBehaviour
 {
     private Text fps;
     private float deltaTime = 0.0f;
 
-    // Start is called before the first frame update
-    void Start()
+    /**
+     * Método Start.
+     */
+    private void Start()
     {
         fps = GetComponent<Text>();
     }
 
-    // Update is called once per frame
-    void Update()
+    /**
+     * Método Update.
+     */
+    private void Update()
     {
         deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
         fps.text = "FPS: " + (int) (1.0f / deltaTime);
-    }
-
-    public void DisableDungeon(GameObject dungeon)
-    {
-        dungeon.SetActive(!dungeon.active);
     }
 }
