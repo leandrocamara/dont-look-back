@@ -24,9 +24,13 @@ public class Waypoint : MonoBehaviour
         {
             iTween.MoveTo(player,
                 iTween.Hash(
-                    "position", GetNewPositionToPlayer(),
+                    "easetype", "linear",
                     "speed", speedMovement,
-                    "easetype", "linear"
+                    "onstarttarget", player,
+                    "oncompletetarget", player,
+                    "position", GetNewPositionToPlayer(),
+                    "onstart", "ActiveAudioWalkingPlayer",
+                    "oncomplete", "StopAudioWalkingPlayer"
                 )
             );
         }

@@ -8,6 +8,8 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public bool openStart;
+    public AudioSource audioOpen;
+    public AudioSource audioClose;
 
     private Animator animator;
 
@@ -16,6 +18,7 @@ public class Door : MonoBehaviour
      */
     public void OpenDoor()
     {
+        audioOpen.Play();
         animator.SetTrigger("Open");
     }
 
@@ -24,6 +27,7 @@ public class Door : MonoBehaviour
      */
     public void CloseDoor()
     {
+        audioClose.Play();
         animator.SetTrigger("Close");
     }
 

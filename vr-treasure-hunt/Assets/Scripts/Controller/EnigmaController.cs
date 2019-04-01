@@ -35,6 +35,23 @@ public class EnigmaController : MonoBehaviour
         }
     }
 
+    /**
+     * Aguarda 1 segundo, antes do Enigma iniciar.
+     */
+    public IEnumerator StartPuzzleAfterOneSecond()
+    {
+        yield return new WaitForSeconds (1);
+        StartPuzzle();
+    }
+
+    /**
+     * Prepara o Enigma.
+     */
+    public void PreparePuzzle()
+    {
+        StartCoroutine(StartPuzzleAfterOneSecond());
+    }
+
     // Begin the puzzle sequence.
     public void StartPuzzle()
     {
@@ -46,6 +63,7 @@ public class EnigmaController : MonoBehaviour
 
             // Reset the index the player is trying to solving.
             currentSolveIndex = 0;
+            SetActiveColliderOrbs(false);
         }
     }
 
@@ -76,6 +94,7 @@ public class EnigmaController : MonoBehaviour
 
             // Stop the pattern display.
             CancelInvoke();
+            SetActiveColliderOrbs(true);
         }
     }
 
@@ -143,5 +162,17 @@ public class EnigmaController : MonoBehaviour
     {
         puzzleOrder = new int[puzzleSpheres.Length];
         GeneratePuzzleSequence();
+        SetActiveColliderOrbs(false);
+    }
+
+    /**
+     * Ativa/inativa o componente "Collider" dos Orbs.
+     */
+    private void SetActiveColliderOrbs(bool active)
+    {
+        foreach (var orb in puzzleSpheres)
+        {
+            orb.GetComponent<SphereCollider>().enabled = active;
+        }
     }
 }
