@@ -9,6 +9,10 @@ public class Chest : MonoBehaviour
 {
     public MonsterController monsterController;
 
+    public GameObject[] gold;
+
+    public bool opened = false;
+
     private Animator anim;
 
     /**
@@ -17,7 +21,20 @@ public class Chest : MonoBehaviour
     public void OpenChest()
     {
         anim.SetTrigger("Open");
-        monsterController.ChasePlayer();
+        SetActiveGoldCollider(true);
+        GetComponent<BoxCollider>().enabled = false;
+    }
+
+    /**
+     * Ativa o Monstro após o Tesouro ser pego pelo Jogador.
+     */
+    public void TakeTreasure()
+    {
+        InactiveGold();
+        if (monsterController)
+        {
+            monsterController.ActiveMonster();
+        }
     }
 
     /**
@@ -25,6 +42,33 @@ public class Chest : MonoBehaviour
      */
     private void Start()
     {
+        SetActiveGoldCollider(false);
         anim = GetComponentInChildren<Animator>();
+        if (opened)
+        {
+            OpenChest();
+        }
+    }
+
+    /**
+     * Ativa/inativa o "Collider" do Ouro do baú do Tesouro.
+     */
+    private void SetActiveGoldCollider(bool active)
+    {
+        foreach (var item in gold)
+        {
+            item.GetComponent<MeshCollider>().enabled = active;
+        }
+    }
+
+    /**
+     * Inativa o Ouro do baú do Tesouro.
+     */
+    private void InactiveGold()
+    {
+        foreach (var item in gold)
+        {
+            item.SetActive(false);
+        }
     }
 }

@@ -20,8 +20,15 @@ public class Monster : MonoBehaviour
      */
     public void AttackPlayer()
     {
-        audioMonster.Play();
         chasePlayer = true;
+    }
+
+    /**
+     * Reproduz o som do Monstro.
+     */
+    public void PlayAudioMonster()
+    {
+        audioMonster.Play();
     }
 
     /**

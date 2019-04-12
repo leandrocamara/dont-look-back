@@ -24,16 +24,26 @@ public class MonsterController : MonoBehaviour
     }
 
     /**
+     * Ativa o Monstro da sala do Tesouro.
+     */
+    public void ActiveMonster()
+    {
+        monster.gameObject.SetActive(true);
+        monster.PlayAudioMonster();
+    }
+
+    /**
      * Ativa a ação do Monstro de perseguição ao Jogador.
      */
     public void ChasePlayer()
     {
-        monster.gameObject.SetActive(true);
-        monster.AttackPlayer();
-
-        OpenDoorsExitRoomChest();
-        CloseDoorsEnterRoomChest();
-        waypointController.ActiveWaypointExit();
+        if (!monster.chasePlayer)
+        {
+            monster.AttackPlayer();
+            OpenDoorsExitRoomChest();
+            CloseDoorsEnterRoomChest();
+            waypointController.ActiveWaypointExit();
+        }
     }
 
     /**

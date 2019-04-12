@@ -49,7 +49,10 @@ public class EnigmaController : MonoBehaviour
      */
     public void PreparePuzzle()
     {
-        StartCoroutine(StartPuzzleAfterOneSecond());
+        if (!puzzleSolved)
+        {
+            StartCoroutine(StartPuzzleAfterOneSecond());
+        }
     }
 
     // Begin the puzzle sequence.

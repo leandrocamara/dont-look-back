@@ -9,10 +9,35 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     /**
-     * Reinicia o jogo após o Monstro alcançar o Jogador.
+     * Redireciona o Jogador para a tela de GameOver.
      */
     public static void GameOver()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("GameOver");
+    }
+
+    /**
+     * Reinicia o jogo.
+     */
+    public void Restart()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
+    /**
+     * Redireciona o Jogador para a tela de Congratulations.
+     */
+    public void Congratulations()
+    {
+        StartCoroutine(changeSceneCongratulations());
+    }
+
+    /**
+     * Redireciona o Jogador para a tela de Congratulations após 3 segundos.
+     */
+    private IEnumerator changeSceneCongratulations()
+    {
+        yield return new WaitForSeconds (2.5f);
+        SceneManager.LoadScene("Congratulations");
     }
 }
