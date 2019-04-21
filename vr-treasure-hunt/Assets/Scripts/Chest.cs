@@ -34,6 +34,7 @@ public class Chest : MonoBehaviour
         if (monsterController)
         {
             monsterController.ActiveMonster();
+            monsterController.takedTreasure = true;
         }
     }
 

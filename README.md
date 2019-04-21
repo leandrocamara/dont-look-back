@@ -1,2 +1,44 @@
-# final-project-dont-look-back
+# VR Treasure Hunt
 Final Project - Udacity Nanodegree Developer VR
+
+- Main Scene: `Main`
+- Plataform: `(Android)`
+
+### Demonstration (Video)
+[VR Treasure Hunt - Demonstration]()
+
+### Documentation (Medium)
+[Documentation]()
+
+### Build
+[Build.apk]()
+
+### Achievements
+- `Fundamentals` (500 points)
+  - Scale `(100 points)`
+  - Animation `(100 points)`
+  - Lighting `(100 points)`
+  - Locomotion `(100 points)`
+  - Physics `(100 points)`
+
+- `Integrity (Completude)` (750 points)
+  - Gamification `(250 points)`
+  - Diegetic UI `(250 points)`
+  - AI `(250 points)`
+
+- `Challenges` (750 points)
+  - User Test `(750 points)`
+
+### Softwares/Assets
+- [Unity 2018.3.3](https://unity3d.com/pt/get-unity/download/archive)
+- [GVR SDK for Unity v1.190.1](https://github.com/googlevr/gvr-unity-sdk/releases/tag/v1.190.1)
+- [Resonance Audio SDK for Unity v1.2.1](https://github.com/resonance-audio/resonance-audio-unity-sdk/releases/tag/v1.2.1)
+- [Fantasy Monster (wizard) Demo](https://assetstore.unity.com/packages/3d/characters/creatures/fantasy-monster-wizard-demo-103037)
+- [Fantasy Wooden GUI Free](https://assetstore.unity.com/packages/2d/gui/fantasy-wooden-gui-free-103811)
+- [Horror Ambient Album](https://assetstore.unity.com/packages/audio/ambient/horror-ambient-album-082318-127190)
+- [Key]()
+- [Lowpoly Dungeon](https://assetstore.unity.com/packages/3d/environments/dungeons/lowpoly-dungeon-assets-117330)
+- [Magic Particles](https://assetstore.unity.com/packages/3d/magic-particle-systems-lite-95868)
+- [Mangled Screams](https://assetstore.unity.com/packages/audio/sound-fx/creatures/mangled-screams-free-64088)
+- [iTween]()
+- [Western Demo Audio](https://assetstore.unity.com/packages/audio/sound-fx/western-audio-music-67788)

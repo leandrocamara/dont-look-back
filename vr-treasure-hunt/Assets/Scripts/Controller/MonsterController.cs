@@ -11,6 +11,7 @@ public class MonsterController : MonoBehaviour
     public Door[] doorsToOpen;
     public Door[] doorsToClose;
     public GameObject monsterStatic;
+    public bool takedTreasure = false;
     public AudioSource audioMonsterStatic;
     public WaypointController waypointController;
 
@@ -37,7 +38,7 @@ public class MonsterController : MonoBehaviour
      */
     public void ChasePlayer()
     {
-        if (!monster.chasePlayer)
+        if (!monster.chasePlayer && takedTreasure)
         {
             monster.AttackPlayer();
             OpenDoorsExitRoomChest();
