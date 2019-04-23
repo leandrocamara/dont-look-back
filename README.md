@@ -5,13 +5,13 @@ Final Project - Udacity Nanodegree Developer VR
 - Plataform: `(Android)`
 
 ### Demonstration (Video)
-[VR Treasure Hunt - Demonstration]()
+[VR Treasure Hunt - Demonstration](https://youtu.be/ABdCk3H3nVc)
 
-### Documentation (Medium)
-[Documentation]()
+### Documentation (PDF)
+[Documentation](https://github.com/leandrocamara/vr-treasure-hunt/blob/master/documentation/Treasure%20Hunt.pdf)
 
 ### Build
-[Build.apk]()
+[VR Treasure Hunt (Build)](https://drive.google.com/open?id=1-s2LF7clvKMne1WMnFUb-ktR3eDKQ6x2)
 
 ### Achievements
 - `Fundamentals` (500 points)
@@ -36,9 +36,11 @@ Final Project - Udacity Nanodegree Developer VR
 - [Fantasy Monster (wizard) Demo](https://assetstore.unity.com/packages/3d/characters/creatures/fantasy-monster-wizard-demo-103037)
 - [Fantasy Wooden GUI Free](https://assetstore.unity.com/packages/2d/gui/fantasy-wooden-gui-free-103811)
 - [Horror Ambient Album](https://assetstore.unity.com/packages/audio/ambient/horror-ambient-album-082318-127190)
-- [Key]()
+- [Key](https://assetstore.unity.com/packages/3d/handpainted-keys-42044)
 - [Lowpoly Dungeon](https://assetstore.unity.com/packages/3d/environments/dungeons/lowpoly-dungeon-assets-117330)
 - [Magic Particles](https://assetstore.unity.com/packages/3d/magic-particle-systems-lite-95868)
 - [Mangled Screams](https://assetstore.unity.com/packages/audio/sound-fx/creatures/mangled-screams-free-64088)
-- [iTween]()
+- [iTween](https://assetstore.unity.com/packages/tools/animation/itween-84)
 - [Western Demo Audio](https://assetstore.unity.com/packages/audio/sound-fx/western-audio-music-67788)
+
+### [Linkedin](https://www.linkedin.com/in/leandro-camara/)
