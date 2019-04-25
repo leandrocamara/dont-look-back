@@ -4,6 +4,12 @@ Final Project - Udacity Nanodegree Developer VR
 - Main Scene: `Main`
 - Plataform: `(Android)`
 
+### Emotion with Experience
+A experiência com "VR Treasure Hunt" tem como objetivo, despertar emoções como:
+- `Medo`: Devido ao fato de que o Jogador está em calabouço, com um ambiente `melancólico` e `sombrio`;
+- `Desespero`: Após o Jogador pegar o tesouro, o Monstro o persegue, causando o sentimento de `desespero`;
+- `Prazer`: Devido ao fato de que o Jogador precisa superar alguns desafios, como o Enigma e a perseguição do Monstro, o sentimento ao final da experiência é de `prazer` (com o tesouro em mãos).
+
 ### Demonstration (Video)
 [VR Treasure Hunt - Demonstration](https://youtu.be/ABdCk3H3nVc)
 
