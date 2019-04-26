@@ -11,7 +11,8 @@ A experiência com "VR Treasure Hunt" tem como objetivo, despertar emoções com
 - `Prazer`: Devido ao fato de que o Jogador precisa superar alguns desafios, como o Enigma e a perseguição do Monstro, o sentimento ao final da experiência é de `prazer` (com o tesouro em mãos).
 
 ### Demonstration (Video)
-[VR Treasure Hunt - Demonstration](https://youtu.be/ABdCk3H3nVc)
+[VR Treasure Hunt - Mobile]()
+[VR Treasure Hunt - Achievements](https://youtu.be/ABdCk3H3nVc)
 
 ### Documentation (PDF)
 [Documentation](https://github.com/leandrocamara/vr-treasure-hunt/blob/master/documentation/Treasure%20Hunt.pdf)
